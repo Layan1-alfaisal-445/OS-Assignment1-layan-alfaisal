@@ -33,59 +33,59 @@ Document your development process as you work on the assignment. Add entries sho
 ## Your Development Log:
 
 ### Entry 1 - [Date and Time]
-**What I did**: 
+**What I did**: downloaded GitHub and Visual Studio Code
 
-**Details**: 
+**Details**: I created an account on GitHub and connected it to Visual Studio Code
+	I put the code inside Visual Studio Code
 
-**Challenges**: 
+**Challenges**:  Downloading GitHub
 
-**Solution**: 
+**Solution**: I watched a YouTube video explaining how to install it
 
-**Time spent**: 
+**Time spent**: 40 minutes
 
 ---
 
 ### Entry 2 - [Date and Time]
-**What I did**: 
+**What I did**: i added my university number 
 
-**Details**: 
+**Details**: i changed the student id to my  university number\\\\\\\\
 
-**Challenges**: 
+**Challenges**: i did not face any difficulty with that 
 
-**Solution**: 
+**Solution**:  i did not face any difficulty 
 
-**Time spent**: 
+**Time spent**: 5 minutes 
 
 ---
 
 ### Entry 3 - [Date and Time]
-**What I did**: 
+**What I did**: reviewed and understood the existing code 
 
-**Details**: 
+**Details**: went through the project files and classes understand how the program works befor making any change
 
-**Challenges**: 
+**Challenges**: some part of the code were not clear initially 
 
-**Solution**: 
+**Solution**:  analayzed the code step by step and ran the program to better understand its functonality
 
-**Time spent**: 
+**Time spent**: 2 hours
 
 ---
 
 ### Entry 4 - [Date and Time]
-**What I did**: 
+**What I did**: feature1 and feature2
 
 **Details**: 
 
-**Challenges**: 
+**Challenges**: ran into an issue with the error in  visual studio code
 
-**Solution**: 
+**Solution**: i looked for youtube videos to fix the error
 
-**Time spent**: 
-
+**Time spent**:  
 ---
 
 ### Entry 5 - [Date and Time]
-**What I did**: 
+**What I did**:  
 
 **Details**: 
 
