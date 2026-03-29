@@ -426,10 +426,10 @@ public class SchedulerSimulation {
         System.out.println(Colors.BOLD + Colors.BRIGHT_CYAN + 
           "╔════════════════════════════════════════════════════════════════════════════════╗" + 
            Colors.RESET);
-        System.out.println(Colors.BOLD + Colors.BRIGHT_CYAN + "â" + Colors.RESET + 
+        System.out.println(Colors.BOLD + Colors.BRIGHT_CYAN + "||" + Colors.RESET + 
                           Colors.BG_BLUE + Colors.BRIGHT_WHITE + Colors.BOLD + 
                           "                     PROCESS WAITING TIME SUMMARY                                " + 
-                          Colors.RESET + Colors.BOLD + Colors.BRIGHT_CYAN + "â" + Colors.RESET);
+                          Colors.RESET + Colors.BOLD + Colors.BRIGHT_CYAN + "||" + Colors.RESET);
         System.out.println(Colors.BOLD + Colors.BRIGHT_CYAN +
         "╠═══════════════════════════════════════════════════════════════════════════════════════╣" +
           Colors.RESET); 
