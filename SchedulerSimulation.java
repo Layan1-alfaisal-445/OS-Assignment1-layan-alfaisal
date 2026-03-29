@@ -30,12 +30,17 @@ class Process implements Runnable {
     private int timeQuantum; // Time slice (time quantum) allowed per CPU access (in milliseconds)
     private int remainingTime; // Time left for the process to finish its execution
 
+
+
+    //feature1:add priority field the process class
+    private int priority;
     // Constructor to initialize the process with name, burst time, and time quantum
-    public Process(String name, int burstTime, int timeQuantum) {
+    public Process(String name, int burstTime, int timeQuantum ,int priority) {
         this.name = name;
         this.burstTime = burstTime;
         this.timeQuantum = timeQuantum;
         this.remainingTime = burstTime; // Initially, remaining time is equal to the burst time
+        this.priority = priority;//feature1
     }
 
     // This method will be called when the thread for this process is started
@@ -138,6 +143,11 @@ class Process implements Runnable {
         return remainingTime;
     }
 
+    //feature1
+    public int getprioirity(){
+        return priority;
+    }
+
     // Check if the process has finished (i.e., no remaining time)
     public boolean isFinished() {
         return remainingTime <= 0;
@@ -198,9 +208,12 @@ public class SchedulerSimulation {
             // Random burst time for each process between timeQuantum/2 and 3*timeQuantum
             int burstTime = timeQuantum / 2 + random.nextInt(2 * timeQuantum + 1);
 
+            //feature1 random priority between 1-5 and 5 is highest 
+            int priority= 1+ random.nextInt(5);
             // Create a new process object with a unique name, burst time, and the defined
             // time quantum
-            Process process = new Process("P" + i, burstTime, timeQuantum);
+            //feature1:add priority parameter
+            Process process = new Process("P" + i, burstTime, timeQuantum, priority);
 
             // Add the process to the ready queue and the map
             addProcessToQueue(process, processQueue, processMap);
@@ -264,7 +277,7 @@ public class SchedulerSimulation {
                     // Re-enqueue the process to give it another chance to run in the next round
                     addProcessToQueue(process, processQueue, processMap);
                 } else {
-                    // If this is the last process in the queue, run it to completion
+                    // If this is the last process in the queue, runs it to completion
                     System.out.println(Colors.BRIGHT_YELLOW + "  ⚠ " + Colors.CYAN + process.getName() +
                             Colors.RESET + Colors.YELLOW + " is the last process → running to completion" +
                             Colors.RESET);
@@ -299,6 +312,15 @@ public class SchedulerSimulation {
         // Map the thread to the process, so we can track the process associated with
         // each thread
         processMap.put(thread, process);
+
+        //feature1
+        System.out.println(Colors.BLUE + "  â " + Colors.BOLD + Colors.CYAN + process.getName() + 
+            Colors.RESET + Colors.YELLOW + " (Priority: " + process.getprioirity() + ")" + 
+            Colors.RESET + Colors.BLUE + " added to ready queue" + Colors.RESET + 
+            " â Burst time: " + Colors.YELLOW + process.getBurstTime() + "ms" + 
+            Colors.RESET);
+    }
+
 
         // Print a message indicating the process has entered the ready queue
         System.out.println(Colors.BLUE + "  ➕ " + Colors.BOLD + Colors.CYAN + process.getName() +
