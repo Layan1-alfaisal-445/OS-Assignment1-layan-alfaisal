@@ -314,7 +314,7 @@ public class SchedulerSimulation {
         processMap.put(thread, process);
 
         //feature1
-        System.out.println(Colors.BLUE + "  â " + Colors.BOLD + Colors.CYAN + process.getName() + 
+        System.out.println(Colors.BLUE + " + " + Colors.BOLD + Colors.CYAN + process.getName() + 
             Colors.RESET + Colors.YELLOW + " (Priority: " + process.getprioirity() + ")" + 
             Colors.RESET + Colors.BLUE + " added to ready queue" + Colors.RESET + 
             " â Burst time: " + Colors.YELLOW + process.getBurstTime() + "ms" + 
