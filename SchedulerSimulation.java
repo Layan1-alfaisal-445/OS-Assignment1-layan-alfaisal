@@ -446,10 +446,10 @@ public class SchedulerSimulation {
        "╠═══════════════════════════════════════════════════════════════════════════════════════╣" +
 Colors.RESET);
         
-        // Calculate total waiting time for average calculation
+        // Calculate total waiting time 
         long totalWaitingTime = 0;
         
-        // Print each process's information in the table
+        // Print 
         for (Process process : completedProcesses) {
             String waitTimeStr = process.gettotalWaitingTime() + "ms";
             
