@@ -63,21 +63,21 @@ Also join() makes the main thread wait When the task finishes the thread reaches
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+### Example 1: [web server]
 
 **Description**: 
-[Describe the real-world scenario or application]
+A web server handles multiple user requests at the same time, where each request runs as a separate thread
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+Round-Robin ensures that every request gets a fair share of CPU time. It improves responsiveness because no single request can block others. It also keeps the system predictable and prevents long waiting times for users
 
-### Example 2: [Name of application/scenario]
+### Example 2: [mobile applications]
 
 **Description**: 
-[Describe the real-world scenario or application]
+Mobile apps run multiple tasks in the background such as downloading data, playing music and updating the UI
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+Round-Robin allows all tasks to run smoothly by giving each one a small time slice. This keeps the app responsive and prevents freezing. It also ensures fairness between background and foreground tasks
 
 ---
 
