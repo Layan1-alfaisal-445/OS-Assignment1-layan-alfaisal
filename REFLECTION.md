@@ -8,34 +8,41 @@ Answer the following questions about your learning experience. Each answer shoul
 ## Question 1: What did you learn about multithreading?
 
 **Your Answer:**
+I learned that multithreading allows multiple tasks to run at the same time
+This helps improve performance and makes programs more efficient
+I understood how threads share memory and work together
+This assignment helped me understand CPU scheduling in a practical way
 
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
-
----
 
 ## Question 2: What was the most challenging part of this assignment?
 
 **Your Answer:**
 
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
+The most difficult part was understanding the feature
+It was also hard to track and fix errors in the program
 
----
+
 
 ## Question 3: How did you overcome the challenges you faced?
 
 **Your Answer:**
 
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
+I reviewed the lectures multiple times
+I tried running the code several times to understand its behavior
+I divided the code into small parts and tested each to see if it was correct
 
----
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
 **Your Answer:**
 
-[Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.]
+It is used in web servers to handle multiple users
+It is also used in mobile applications for background tasks
+Games use it to run multiple functions simultaneously
+It helps improve performance and responsiveness
+It is important in many modern systems
 
----
+
 
 ## Additional Reflections (Optional)
 
