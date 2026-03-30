@@ -11,7 +11,12 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 
 **Your Answer:**
 
-[Write your answer here. Consider: What is a process? What is a thread? How do they differ in terms of memory, resources, creation overhead? Why are threads more suitable for this simulation?]
+A process is an independent program with its own memory space 
+while a thread is a smaller unit of execution that runs inside a process and shares the same memory
+One important difference is memory sharing threads share memory which makes communication faster
+Another difference is creation overhead threads are lightweight and faster to create compared to processes
+Using threads in SchedulerSimulation made it easier to simulate CPU scheduling and switch between processes efficiently
+
 
 ---
 
@@ -21,17 +26,14 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 
 **Your Answer:**
 
-[Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
-
-Example from my output:
-```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
-```
+In Round-Robin scheduling if a process does not finish within its time quantum it is stopped and added again to the end of the ready queue
+For example after a thread finishes executing its time quantum using currentThread.join() the program checks if the process is finished using if (!process.isFinished())
+If it is not finished it is re-added to the queue using addProcessToQueue(process, processQueue, processMap)
 
 **Explanation of example:**
-[Explain what's happening in the output snippet you pasted]
-
----
+P1 executing quantum
+P1 yields CPU for context switch
+P1 added to ready queue
 
 ## Question 3: Thread States
 
@@ -39,17 +41,19 @@ Example from my output:
 
 **Your Answer:**
 
-[Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
+thread goes through states: New, Runnable, Running, Waiting, and Terminated
+It starts with new Thread() and moves to execution using start() During execution sleep() puts it in Waiting state
+Also join() makes the main thread wait When the task finishes the thread reaches the Terminated state
 
-1. **New**: [When is P1 in New state?]
+1. **New**:P1 is in the New state when it is created using new Thread(process) before it starts execution
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: P1 becomes Runnable when currentThread.start() is called and it is ready to run
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: P1 is in the Running state when it starts executing the run() method on the CPU
 
-4. **Waiting**: [When/why would P1 be Waiting?]
+4. **Waiting**: P1 enters the Waiting state when Thread.sleep() is used during execution causing it to pause temporarily
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: P1 is in the Terminated state when it finishes execution and remainingTime <= 0
 
 ---
 
