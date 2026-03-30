@@ -32,11 +32,11 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
+### Entry 1 - [28-3 and 4:30 pm]
 **What I did**: downloaded GitHub and Visual Studio Code
 
 **Details**: I created an account on GitHub and connected it to Visual Studio Code
-	I put the code inside Visual Studio Code
+	
 
 **Challenges**:  Downloading GitHub
 
@@ -46,20 +46,21 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 2 - [Date and Time]
+### Entry 2 - [28-3 and 5:10 pm]
 **What I did**: i added my university number 
 
-**Details**: i changed the student id to my  university number\\\\\\\\
+**Details**: i changed the student id to my  university number
+I put the code inside Visual Studio Code
 
 **Challenges**: i did not face any difficulty with that 
 
 **Solution**:  i did not face any difficulty 
 
-**Time spent**: 5 minutes 
+**Time spent**: 20 minutes 
 
 ---
 
-### Entry 3 - [Date and Time]
+### Entry 3 - [28-3 and 5:30 pm]
 **What I did**: reviewed and understood the existing code 
 
 **Details**: went through the project files and classes understand how the program works befor making any change
@@ -68,32 +69,32 @@ Document your development process as you work on the assignment. Add entries sho
 
 **Solution**:  analayzed the code step by step and ran the program to better understand its functonality
 
-**Time spent**: 2 hours
+**Time spent**: 3 hours
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: feature1 and feature2
+### Entry 4 - [29-3 and 4:00 pm]
+**What I did**: feature1 and feature2 and feature3
 
-**Details**: 
+**Details**: I followed the instructions in the file and applied them
 
 **Challenges**: ran into an issue with the error in  visual studio code
 
 **Solution**: i looked for youtube videos to fix the error
 
-**Time spent**:  
+**Time spent**:  7:30 hours 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:  
+### Entry 5 - [30-3 and 8:30 pm]
+**What I did**: I solved the questions and recorded the video
 
-**Details**: 
+**Details**: I completed the questions available on GitHub and recorded the required clip in the file
 
-**Challenges**: 
+**Challenges**: There were no difficulties
 
-**Solution**: 
+**Solution**: There were no difficulties
 
-**Time spent**: 
+**Time spent**: 3 huors
 
 ---
 
