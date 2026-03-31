@@ -78,7 +78,7 @@ I put the code inside Visual Studio Code
 
 **Details**: I followed the instructions in the file and applied them
 
-**Challenges**: ran into an issue with the error in  visual studio code
+**Challenges**: ran into an issue with the error 
 
 **Solution**: i looked for youtube videos to fix the error
 
@@ -113,10 +113,10 @@ I put the code inside Visual Studio Code
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [15 hours]
 
-**Most challenging part**: 
+**Most challenging part**: running the code and dealing with errors
 
-**Most interesting learning**: 
+**Most interesting learning**: I learned how to run processes using threads
 
-**What I would do differently next time**: 
+**What I would do differently next time**: Start early and test each part of the code separately to avoid errors
